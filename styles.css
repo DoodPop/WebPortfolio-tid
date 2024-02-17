@@ -1,0 +1,495 @@
+
+@import url('https://fonts.googleapis.com/css?family=Montserrat&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: montserrat, sans-serif;
+    box-sizing: border-box;
+}
+
+.container {
+    padding: 10px 10%;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    background: #1b1717;
+    color: #fff;
+}
+.Title {
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+    font-size: 60px;
+   
+  }
+.Title2{
+    padding-top: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    font-size: 60px;
+
+}  
+
+
+ span{
+    color: #ff4d5a;
+    padding-left: 10px;
+    padding-right: 10px;
+    display: inline-block; 
+  }
+ 
+  #header {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+  
+    background-size: cover;
+    background-position: center;
+    z-index: 1;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    background-color: #333;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  nav li {
+    margin: 0;
+  }
+  
+  nav a {
+    display: block;
+    padding: 15px 20px;
+    color: #fff; 
+    text-decoration: none;
+    transition: 0.5s;
+    font-weight: bold;
+  font-family:sans-serif;
+  }
+  
+  nav ul li a:hover {
+    color: #ff4d5a;
+    
+}
+
+.tab{
+  position: absolute;
+  border: solid 5px #ff4d5a;
+  padding-left: 250px;
+  margin-left: 250px;
+margin-top: 170px;
+z-index: -2;
+height: 23px;
+background-color:#ff4d5a ;
+
+
+}
+.tabP{
+  padding-left: 210px;
+  position: absolute;
+  border: solid 8px #ff4d5a;
+  margin-top: 24px;
+  z-index: -2;
+}
+
+.fixed {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 12000; 
+}
+
+
+#particles-js {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 0; 
+}
+@keyframes slidein {
+  from {
+    transform: translateX(100%);
+  }
+  to {
+    transform: translateX(0); 
+  }
+}
+.animate {
+ 
+  animation-duration: 5s;
+  animation-name: slidein;
+  animation-fill-mode: forwards;
+}
+#Projects{
+  margin-left: 200px;
+}
+
+.fiddle {
+
+  margin-left: 100; 
+  padding-top: 150px;
+  padding-left: 250px;
+  font-weight: bolder;
+  display: flex;
+  height: auto;
+}
+
+.tiddle {
+  margin-left: 100; 
+  display: flex;
+  height: auto;
+  animation: slidein 1s forwards; 
+}
+
+@keyframes slideint {
+  from {
+    transform: translateX(-100%); 
+  }
+  to {
+    transform: translateX(0); 
+  }
+}
+
+  
+
+.toop{
+  opacity: 0;
+  margin-right: 100%;
+}
+@keyframes fadeInn {
+  from {
+    opacity: 0; 
+  }
+  to {
+    opacity: 1; 
+  }
+
+}
+.toop.fade-inn {
+  animation: fadeIn 5s ease-in-out forwards !important; 
+}
+
+.foop {
+  opacity: 0;
+  margin-right: 60%; 
+}
+
+
+@keyframes fadeIn {
+  from {
+    opacity: 0; 
+  }
+  to {
+    opacity: 1; 
+  }
+}
+
+
+.foop.fade-in {
+  animation: fadeIn 2.5s ease-in-out forwards !important; /* Use the fadeIn animation for 1 second */
+}
+
+.animates {
+ 
+  animation-duration: 3s;
+  animation-name: slideint;
+  animation-fill-mode: forwards;
+}
+
+.sub-title{
+  z-index: 9999;
+  position: relative;
+}
+
+.tiddle{
+    padding-left: 240px;
+ 
+  height: 50px;
+}
+.foop{
+    font-size: 9em !important;
+    padding-right:100px
+    
+  
+}
+.col1{
+    flex-basis: 90%;
+}
+#Projects{
+    padding-top: 70px;
+    margin-left: 300px;
+}
+
+
+
+  .poop {
+  width: 60px;
+  }
+ 
+  
+.row {
+  margin-left: 50px;
+  
+  display : inline-block; 
+
+}
+
+
+.tooltip {
+  position: relative;
+  display: inline-block; 
+}
+
+.tooltip .tooltiptext {
+  visibility: hidden;
+  width: 120px;
+  background-color: #555;
+  color: #fff;
+  text-align: center;
+  border-radius: 6px;
+  padding: 5px 0;
+  position: absolute;
+  z-index: 1;
+  bottom: 125%;
+  left: 50%;
+  margin-left: -60px;
+  opacity: 0;
+  transition: opacity 0.3s;
+}
+
+
+.tooltip:hover .tooltiptext {
+  visibility: visible;
+  opacity: 1;
+}
+
+.pr3{
+  margin-left: 700px  !important;
+
+}
+.pr11{
+  margin-left: 600px  !important;
+}
+.containert{
+    padding: 10px 20%;
+}
+.proimag {
+  position: relative;
+  display: inline-block;
+  height: 450px;
+  padding-left: 50px;
+  transition: 0.3s ease-in-out;
+  border: 0px solid purple;
+  background-color: #3216bb;
+  cursor: pointer;
+  opacity: 0.8;
+  border-radius: 5px;
+  background: linear-gradient(rgba(63, 87, 92, 0.9));
+}
+.pro1{
+  padding-top: 50px;
+  padding-right:50px ;
+
+}
+
+.pro2{
+  padding-top: 50px;
+}
+.pro3{
+  padding: 50px 50px 0px;
+}
+
+#contact{
+  padding-top: 80px;
+}
+
+.proimag::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(to bottom, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.1)); /* Adjust the gradient as needed */
+  opacity: 0; 
+  transition: opacity 0.3s ease-in-out;
+}
+
+.proimag:hover::before {
+  opacity: 1; 
+}
+.Pro-info {
+position: absolute;
+    background-color: rgba(0, 0, 0, 0.5); 
+    height: auto; 
+    padding: 30px; 
+    width: 300px;
+    z-index: 999;
+    margin-left: 350px;
+  }
+  .Pro-info a {
+    color: #ff4d5a;
+    text-decoration: none;
+   
+  }
+  .Pr2{
+margin-left: 10px;
+  }
+  .pro2{
+    margin-left: 300px;
+  }
+  .projectde {
+    font-weight: bolder;
+    padding-top: 18px;
+    letter-spacing: 3px;
+    line-height: 1;
+    text-transform: uppercase;
+    cursor: pointer;
+    text-decoration: none;
+    color: aliceblue;
+    position: relative;
+    transition: 0.3s;
+    padding-bottom: 10px;
+    justify-content: center;
+
+    padding-left: 10px;
+
+  }
+  .projectde:hover{
+    color: black;
+    font-weight: bolder;
+  }
+  
+  .projectde::after {
+    content: '';
+    position: absolute; 
+    bottom: 0; 
+    left: 0; 
+    width: 70%; 
+    height: 8%;
+    background-color: #ff4d5a; 
+    transition: height 0.3s ease; 
+    z-index: -1;
+  }
+  
+  .projectde:hover::after {
+    height: 80%;
+    
+  }
+  
+.description{
+  padding-top: 20px;
+}
+
+.proimag:hover {
+  transform: scale(1.2); }
+#Projects{
+  padding-left: 40px;
+}
+.moop{
+  padding-top: 25px;
+}
+.moop:hover::after{
+height: 80%;
+}
+
+#Projects h2{
+  padding-top: 50px;
+  padding-bottom: 30px;
+}
+.space{
+  padding-top: 50px;
+}
+/* contact shit */
+.contact-left{
+    flex-basis: 35%;
+    }
+    .contact-right{
+        flex-basis: 60%;
+        }
+        .contact-left p{
+            margin-top: 30px;
+        }
+        .contact-left p i{
+    color:#ff4d5a;
+    margin-right: 15px;
+    font-size: 25px;
+        }
+        .social-icons{
+            margin-top: 30px;
+            margin-bottom: 30px;
+    
+        }
+        .social-icons a{
+            text-decoration: none;
+            font-size: 30px;
+            margin-right: 15px;
+            color: #ababab;
+            display: inline-block;
+            transition: transform 0.5s;
+        }
+        .social-icons a:hover{
+            color:#ff4d5a;
+            transform: translateY(-5px);
+    
+        }
+   
+        .contact-right form{
+            width: 100%;
+    
+        }
+        form input, form textarea{
+            width: 100%;
+            border: 0;
+            outline: none;
+            background: #262626;
+            padding: 15px;
+            margin: 15px 0;
+            color: #fff;
+            font-size: 18px;
+            border-radius: 6px;
+    
+        }
+        form .btn2 {
+          display: block;
+          padding: 15px 20px;
+          text-decoration: none;
+          transition: background-color 0.5s; 
+          font-weight: bolder;
+          font-family: sans-serif;
+          background-color: #382b2b; 
+          border: 0px solid #ff4d5a; 
+          color: #ababab; 
+          cursor: pointer;
+          border-radius: 5px;
+        }
+        
+        .btn2:hover {
+          background-color: #ff4d5a;
+          color: white; 
+        }
+        
+        .copyright{
+            width: 100%;
+            text-align: center;
+            padding: 25px 0;
+            background: #262626;
+            font-weight: 300;
+            margin-top: 20px;
+        }
+        .copyright i{
+            color: #ff4d5a;
+        }
