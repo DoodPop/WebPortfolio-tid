@@ -493,3 +493,91 @@ height: 80%;
         .copyright i{
             color: #ff4d5a;
         }
+
+        /*------------Mobile Css------------*/
+        @media screen and (max-width: 600px) {
+        
+          .container{
+           justify-content: center;
+           align-items: center;
+          }
+          .Title2{
+            font-size: 40px;
+            padding: 0px;
+            justify-content: center;
+            align-items: center;
+          }
+        .Title{
+          font-size: 40px;
+          padding: 0px;
+          justify-content: center;
+          align-items: center;
+        }
+#Projects{
+  margin-left: 0px !important;
+}
+.proimag{
+  height: 150px;
+
+}
+.pro2{
+  margin-left: 0px !important;
+}
+.fiddle{
+  padding-left: 0px !important;
+}
+.tiddle{
+  padding-left: 0px !important;
+
+  
+}
+.Pro-info{
+  width: 150px;
+  height: 100px !important;
+}
+.tab{
+  margin-left: 0px;
+  margin-top: 50px;
+}
+.pr11{
+  margin-left: 0px !important;
+}
+.pr3{
+  margin-left: 0px !important;
+  
+}
+.mobile{
+  font-size: 15px;
+}
+.poop{
+  width: 40px;
+  padding-top: 80px;
+  
+ 
+}
+.row{
+  margin-left: 10px !important;
+  margin-top: 70px;
+}
+.foop{
+  font-size: 60px !important;
+margin-bottom: 30px;
+
+
+}
+.tooltip:hover{
+ position: absolute;
+ margin-top: 50px !important;
+}
+.fiddle{
+  margin-bottom: 30px;
+  padding-top:50px ;
+}
+.containert{
+  padding:15px;
+}
+
+
+          }
+        
+          
