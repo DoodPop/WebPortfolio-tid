@@ -119,98 +119,37 @@ background-color:#ff4d5a ;
     height: 100%;
     z-index: 0; 
 }
-@keyframes slidein {
-  from {
-    transform: translateX(100%);
-  }
-  to {
-    transform: translateX(0); 
-  }
-}
-.animate {
  
-  animation-duration: 5s;
-  animation-name: slidein;
-  animation-fill-mode: forwards;
-}
+
 #Projects{
   margin-left: 200px;
 }
 
-.fiddle {
 
-  margin-left: 100; 
-  padding-top: 100px;
-  padding-left: 250px;
-  font-weight: bolder;
-  display: flex;
-  height: auto;
-}
 .tab{
-  margin-top: 100px;
-}
-.tiddle {
-  margin-left: 100; 
-  display: flex;
-  height: auto;
-  animation: slidein 1s forwards; 
-}
+  margin-top: 20px;
+ margin-left: 220px;
+ 
 
-@keyframes slideint {
-  from {
-    transform: translateX(-100%); 
-  }
-  to {
-    transform: translateX(0); 
-  }
+ 
+}
+.foop{
+  margin-bottom: 30px !important;
 }
 
   
 
-.toop{
-  opacity: 0;
-  margin-right: 100%;
+
+
+
+
+
+
+
+
+.fiddle{
+  margin-left: 300px;
 }
-@keyframes fadeInn {
-  from {
-    opacity: 0; 
-  }
-  to {
-    opacity: 1; 
-  }
-
-}
-.toop.fade-inn {
-  animation: fadeIn 5s ease-in-out forwards !important; 
-}
-
-.foop {
-  opacity: 0;
-  margin-right: 60%; 
-}
-
-
-@keyframes fadeIn {
-  from {
-    opacity: 0; 
-  }
-  to {
-    opacity: 1; 
-  }
-}
-
-
-.foop.fade-in {
-  animation: fadeIn 2.5s ease-in-out forwards !important; /* Use the fadeIn animation for 1 second */
-}
-
-.animates {
- 
-  animation-duration: 3s;
-  animation-name: slideint;
-  animation-fill-mode: forwards;
-}
-
 .sub-title{
   z-index: 9999;
   position: relative;
@@ -290,9 +229,9 @@ background-color:#ff4d5a ;
   margin-left: 600px  !important;
 }
 .containert{
-    padding: 10px 7%;
+    padding: 10px 5%;
 }
-.row{
+.rowe{
   padding-top: 60px;
 }
 
@@ -399,6 +338,9 @@ margin-left: 10px;
     height: 80%;
     
   }
+  .containert{
+    margin-top: 100px;
+  }
   
 .description{
   padding-top: 20px;
@@ -498,129 +440,244 @@ height: 80%;
             padding: 25px 0;
             background: #262626;
             font-weight: 300;
-            margin-top: 20px;
+            margin-top: 10px;
         }
         .copyright i{
             color: #ff4d5a;
         }
 
-        /*------------Mobile Css------------*/
-        @media screen and (max-width: 1000px) {
-        
-          .container{
-           justify-content: center;
-           align-items: center;
-          }
-          html{
-            width: 100%;
-          }
-          #header{
-            height: 100vh;
-          }
-          .Title2{
-            font-size: 35px;
-        
-            justify-content: center;
-            align-items: center;
-           
-          
-          }
-        .Title{
-          font-size: 35px;
-          padding: 0px;
-          justify-content: center;
-          align-items: center;
-        }
+      .container{
+        height: vh;
+        align-items: center;
+        justify-content: center;
+        overflow: hidden;
+        padding-bottom: 40px;
+      
+      }
+      body{
+        align-items: center;
+        justify-content: center;
+      }
+     /*------------Mobile Css------------*/
+     @media screen and (max-width: 1250px){
+.rowe{
+  margin-top: 10%;
+}
 #Projects{
-  margin-left: 0px !important;
+  margin-left: 0px;
+}
+     }
+     @media screen and (max-width: 1000px) {
+        
+     
+      html{
+        width: 100%;
+        height: 100%;
+    
+      
+
+      }
+      #header{
+        height: 100vh;
+      }
+      .particles-js-canvas-el {
+        width: 100% !important;
+        height: 100% !important;
+    }
+    nav{
+      width: 100%;
+    }
+   
+    
+      .Title,
+      .Title2,
+      .mobile,
+      .description {
+          font-size: 1.5rem; 
+      }
+      .Title, .Title2{
+        position: relative;
+        width: 100%;
+      }
+      .Title{
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+      
+        
+      }
+#Projects{
+margin-left: 0px !important;
+padding-left: 1.5rem;
+overflow: hidden;
+align-items: center;
+justify-content: center;
+width: 100%;
 }
 .proimag{
-  height: 230px;
+height: 15rem;
+
+overflow: hidden;
+display: block;
 
 }
 .pro2{
 
-  margin-left: 140px;
+margin-left: 140px;
 }
 .fiddle{
-  padding-left: 0px !important;
+padding-left: 0px !important;
+margin-left: 100px;
 }
 .tiddle{
-  padding-left: 0px !important;
+padding-left: 0px !important;
 
-  
+
 }
 .Pro-info {
-width: 230px;
-}
+  width: 40%;
+  position: absolute;
+  padding-left: 5%;
+  padding-right: 5%;
+  padding-bottom: 5%;
+  }
+  
+
+
 
 .tab{
-  margin-left: 0px;
-  margin-top: 50px;
-}
-.description{
-  font-size: 15px;
+margin-left: 0px;
+margin-top: 50px;
 }
 
+
 .pr11{
-  margin-left: 280px !important;
- 
- 
+margin-left: 12rem !important;
+margin-top: 5rem;
+padding-top: 6%;
+
 }
 .space{
-  padding-top: 130px;
+padding-top: 130px;
 }
 .Pr2{
-  padding-bottom: 20px;
-  margin-bottom: 50px;
+padding-bottom: 20px;
+margin-bottom: 50px;
+
 }
 .pr3{
-  margin-left: 250px !important;
-  margin-top: 40px;
-  
+margin-left: 12rem !important;
+margin-top: 5rem;
+
 }
 .mobile{
-  font-size: 15px;
+font-size: 1rem;
 }
 .poop{
-  width: 40px;
-  padding-top: 10px;
-  
- 
+width: 2.4rem;
+padding-top: 1rem;
+
+
 }
-.row{
-  margin-left: 10px !important;
-  margin-top: 85px;
-  padding-top: 20px;
+.title{
+  font-size: 0.9rem;
+}
+.description{
+  padding-top: 5%;
+  font-size: 0.7rem;
+}
+.mob{
+ font-size: 0.7rem;
+}
+.rowe{
+margin-left: 10px !important;
+margin-top: 5%;
+padding-top: 20px;
 }
 .foop{
-  font-size: 60px !important;
+font-size: 60px !important;
 margin-bottom: 30px;
 
 
 }
+.moop{
+  padding-top: 10% !important;
+  padding-bottom: 5%;
+}
 .projectde{
-  padding-right: 100px;
+padding-right: 100px;
+
+
 }
 .pro1{
-  padding: 20px 20px 0px
+padding: 20px 20px 0px;
+height: 12rem;
+
+
 }
 .pro2{
-  padding: 20px 0px 0px 20px;
-  height: 250px;
+padding: 20px 0px 0px 20px;
+height: 250px;
+margin-left: 2rem;
 }
 .pro3{
-  padding: 20px 20px 0px;
+padding: 20px 20px 0px;
+height: 10rem;
 }
 .fiddle{
-  margin-bottom: 30px;
-  padding-top:50px ;
+margin-bottom: 30px;
+padding-top:50px ;
 }
 .containert{
-  padding:15px;
+padding:15px;
+margin-top: 20px;
+}
+.copyright{
+  padding-top: 50px;
+  padding-bottom: 25px;
+  position:relative
 }
 
-
-          }
+      }
+      @media screen and (max-width: 750px){
+        .Title,
+        .Title2
         
+         {
+            font-size: 2rem; 
+        }
+        .rowe{
+          margin-top: 2rem;
+        }
+      }
+      @media screen and (max-width: 500px) {
+        .Title,
+        .Title2
+  
+         {
+            font-size: 1.2rem; 
+        }
+        .rowe{
+          margin-top: 4rem;
+       margin-bottom: 0rem;
           
+        }
+      
+#Projects{
+  padding-left: 0px;
+  padding-bottom: 40px;
+
+}
+.container{
+  padding-top: 20px;
+  
+}
+
+       }
+       @media screen and (max-width:410px){
+        .rowe{
+          margin-top: 7rem;
+       margin-bottom: 0rem;
+          
+        }
+       }
