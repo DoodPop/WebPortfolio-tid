@@ -161,13 +161,19 @@ background-color:#ff4d5a ;
   height: 50px;
 }
 .foop{
-    font-size: 12em !important;
-    padding-right:300px
+    font-size: 16em !important;
+    padding-right:300px;
+    padding-top: 100px;
+    position: absolute;
+    margin-right: 80px;
+  
     
   
 }
 .mobile{
   font-size: 20px ;
+  padding-top: 30px;
+ 
   
 }
 .col1{
@@ -176,6 +182,7 @@ background-color:#ff4d5a ;
 #Projects{
     padding-top: 70px;
     margin-left: 300px;
+
 }
 
 
@@ -223,6 +230,7 @@ background-color:#ff4d5a ;
 
 .pr3{
   margin-left: 700px  !important;
+  margin-top: 100px;
 
 }
 .pr11{
@@ -232,7 +240,9 @@ background-color:#ff4d5a ;
     padding: 10px 5%;
 }
 .rowe{
-  padding-top: 60px;
+  padding-top: 100px;
+  padding-left: 20px;
+  margin-left: 340px;
 }
 
 .proimag {
@@ -253,9 +263,50 @@ background-color:#ff4d5a ;
   padding-right:50px ;
 
 }
+.button {
+  padding: 10px;
+ margin-top: 30px;
+  margin-left: 450px;
+  display: inline-block; 
+  align-items: center;
+  justify-content: center;
+  z-index: 999999;
+  cursor: pointer;
+  opacity: 0;
+  animation: fadeIn 1.0s ease-in-out forwards;
+  color: #ff4d5a !important;
+  text-decoration: none;
+border: solid 2px #ff4d5a;
+border-radius: 5px;
+
+transition: background-color 0.3s ease; 
+}
+
+.button:hover {
+ 
+  background-color: #ff4d5a;
+ color: #1b1717 !important;
+}
+a{
+
+  text-decoration: none;
+}
+
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
 
 .pro2{
   padding-top: 50px;
+
+  
 }
 .pro3{
   padding: 50px 50px 0px;
@@ -296,6 +347,7 @@ position: absolute;
   }
   .Pr2{
 margin-left: 10px;
+margin-top: 30px;
   }
   .pro2{
     margin-left: 300px;
@@ -589,10 +641,17 @@ padding-top: 1rem;
 .mob{
  font-size: 0.7rem;
 }
+.foop{
+  position: relative;
+  padding-top: 0px;
+}
 .rowe{
 margin-left: 10px !important;
 margin-top: 5%;
-padding-top: 20px;
+padding-top: 60px;
+margin-left: 0px;
+
+
 }
 .foop{
 font-size: 60px !important;
