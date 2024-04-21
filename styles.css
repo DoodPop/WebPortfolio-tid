@@ -140,7 +140,10 @@ background-color:#ff4d5a ;
   
 
 
+.p8{
+  size: 4rem !important;
 
+}
 
 
 
@@ -275,7 +278,7 @@ background-color:#ff4d5a ;
   padding: 10px;
  margin-top: 30px;
 display: inline-block; 
-margin-left: 43rem;
+margin-left: 41.5rem;
  align-items: center;
  justify-content: center;
   z-index: 999999;
@@ -518,7 +521,12 @@ height: 80%;
         align-items: center;
         justify-content: center;
       }
-     /*------------Mobile Css------------*/
+     /*------------Mobile Css------------*/ 
+     @media screen and (max-width: 1600px){
+      .button{
+        margin-left:36.5rem ;
+      }
+    }
      @media screen and (max-width: 1350px){
       .button{
         margin-left:30rem ;
@@ -535,7 +543,7 @@ height: 80%;
   margin-left: 0px;
 }
      }
-     @media screen and (max-width: 1000px) {
+     @media screen and (max-width: 1050px) {
         
      
       html{
@@ -546,7 +554,7 @@ height: 80%;
 
       }
       .button{
-        margin-left: 20rem;
+        margin-left: 16rem;
         font: 10px;
       }
       #header{
@@ -559,10 +567,12 @@ height: 80%;
     nav{
       width: 100%;
     }
-   
+    .Title,
+      .Title2,{
+        font-size: 3rem;
+      }
     
-      .Title,
-      .Title2,
+     
       .mobile,
       .description {
           font-size: 1.5rem; 
@@ -729,10 +739,21 @@ margin-top: 20px;
           margin-left: 13rem;
         }
         .rowe{
-          margin-top: 2rem;
+          margin-top: 3rem;
         }
       }
-      @media screen and (max-width: 500px) {
+      @media screen and (max-width: 600px){
+        .Title,
+        .Title2
+        
+         {
+            font-size: 1.7rem; 
+        }
+        .button{
+          margin-left: 10.5rem;
+        }
+      }
+      @media screen and (max-width: 520px) {
         .Title,
         .Title2
   
@@ -759,10 +780,19 @@ margin-top: 20px;
 }
 
        }
-       @media screen and (max-width:410px){
+       @media screen and (max-width:415px){
+       
         .rowe{
-          margin-top: 7rem;
+          padding-top: 40px;
+          margin-top: 7.6rem;
        margin-bottom: 0rem;
+ 
+
           
+        }
+        
+        .button{
+margin-left:7rem;
+font-size: 0.65rem;
         }
        }
